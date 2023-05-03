@@ -21,14 +21,14 @@ struct RelayInfo {
 };
 
 std::vector<RelayInfo> relays = {
-    {"643a53ac312d40edc3f0ce20", "Relay 1", RELAYPIN_1},
-    {"643a5359312d40edc3f0cd8a", "Relay 2", RELAYPIN_2},
-    {"644d70a8918a3c911c8ce22b", "Relay 3", RELAYPIN_3}};
+    {"643a53ac312d40exxxxxxxxx", "Relay 1", RELAYPIN_1}, //use youe device1 keys 
+    {"643a5359312d40exxxxxxxx", "Relay 2", RELAYPIN_2},  // led2 keys
+    {"644d70a8918a3c911c8ce22b", "Relay 3", RELAYPIN_3}}; // led3 keys
 
-#define WIFI_SSID  "5G"
-#define WIFI_PASS  "Souravboss"
-#define APP_KEY    "2f42f35b-39c3-4a71-b6ed-ddeaa481804e"    
-#define APP_SECRET "44080d54-472c-4c22-ab5b-0001a4630673-72fe8f59-83bd-4b28-a164-628e4a913522" 
+#define WIFI_SSID  "name of your ssid"
+#define WIFI_PASS  "enter password"
+#define APP_KEY    "2f42f35b-39c3-4a71-b6ed-xxxxxxxxx"    
+#define APP_SECRET "44080d54-472c-xxxx-ab5b-0001a4630673-72fe8f59-83bd-4b28-a164xxxxxxxxxx" // enter your app key
 
 #define BAUD_RATE  9600        
 
